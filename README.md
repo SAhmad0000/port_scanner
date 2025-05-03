@@ -1,4 +1,4 @@
-# ⚡ Async Port Scanning Detection Tool
+# ⚡ Port Scanning Detection Tool
 
 This is a fast and lightweight Port Scanner built with **Python**, **Streamlit**, and **Asyncio**.  
 It can scan thousands of ports within seconds using asynchronous socket connections.

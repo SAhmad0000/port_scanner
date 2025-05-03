@@ -2,7 +2,7 @@ import streamlit as st
 import asyncio
 from scanner_detection import detect_open_ports
 
-st.title("⚡ Fast Port Scanning Detection Tool (Async)")
+st.title("⚡ Port Scanning Detection Tool")
 
 st.write("""
 Scan a target IP address or domain name to detect open ports very fast using Asyncio.

@@ -12,9 +12,9 @@ target = st.text_input("Enter Target (IP or Domain Name)", value="scanme.nmap.or
 
 col1, col2 = st.columns(2)
 with col1:
-    start_port = st.number_input("Start Port", min_value=1, max_value=65535, value=20)
+    start_port = st.number_input("Start Port", min_value=1, max_value=65535, value=1)
 with col2:
-    end_port = st.number_input("End Port", min_value=1, max_value=65535, value=100)
+    end_port = st.number_input("End Port", min_value=1, max_value=65535, value=1024)
 
 timeout = st.slider("Timeout (seconds)", min_value=0.1, max_value=5.0, value=1.0)
 
